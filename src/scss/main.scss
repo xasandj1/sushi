@@ -1,0 +1,58 @@
+@import "./_fonts";
+
+:root{
+  --fonts-d:'dina-pro';
+  --fonts-n:'Nexa';
+  --darkorange: #F46D40;
+  --orange: #FF9846;
+  --grey: #A4ACAD;
+  --whitegrey:rgba(255, 255, 255, 0.85);
+  --white:#FFFF;
+  --black:#000000;
+  --dark:#111111;
+  --body: #f2f2f2;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: var(--fonts-d);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--body);
+  min-height: 100vh;
+  &:hover{
+    cursor: url("../assets/img/cursor.svg") 16 16, pointer;
+  }
+}
+a {
+  text-decoration: none !important;
+  &:hover{
+    cursor: url("../assets/img/cursor.svg") 16 16, pointer;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,ul {
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+.container {
+    max-width: 1320px !important;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main{
+  max-width: 1495px;
+  margin: 0 auto;
+  width: 100%;
+}
