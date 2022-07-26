@@ -39,6 +39,8 @@ export const SliderCard = styled.div`
   max-width: 290px;
   width: 100%;
   margin: 0px 20px;
+  min-height: 385px;
+  height: 100%;  
 `;
 export const SliderImg = styled.img`
   max-width: 253px;
@@ -49,7 +51,10 @@ export const SliderCardTitle = styled.h3`
   font-weight: 500;
   font-size: 24px;
   color: var(--black);
-  margin: 30px 20px;
+  margin: 15px 0 15px 17px;
+  max-width: 180px;
+  width: 100%;
+  height: 80px;
 `;
 export const SliderCardTxt = styled.p`
   font-weight: 400;
@@ -57,6 +62,8 @@ export const SliderCardTxt = styled.p`
   color: var(--grey);
   margin: 30px 20px;
   border-bottom: 1px solid var(--grey);
+
+
 `;
 export const SliderButtons = styled.div`
   display: flex;
@@ -78,4 +85,54 @@ export const SliderBtn = styled.button`
   padding: 5px 40px;
   border-radius: 5px;
   border: none;
+`;
+export const SliderBottom = styled.div`
+  
+`;
+export const SliderInfo = styled.div`
+  
+`;
+export const SliderInfoTitle = styled.h2`
+  font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+color: var(--grey);
+`;
+export const SliderInfoTxt = styled.p`
+  font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: var(--grey);
+max-width: 950px;
+width: 100%;
+margin-top: 15px;
+`;
+export const SliderInfoList = styled.ul`
+    font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: var(--grey);
+max-width: 950px;
+width: 100%;
+margin: 20px 15px;
+`;
+export const SliderInfoJobTitle = styled.li`
+    font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: var(--grey);
+max-width: 950px;
+width: 100%;
+margin-left: 20px;
+`;
+export const SliderInfoJobTxt = styled.li`
+    font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: var(--grey);
+max-width: 950px;
+width: 100%;
+list-style: none;
+margin-top: 10px;
+background: linear-gradient(180deg, rgba(242, 242, 242, 0) 0%, #F2F2F2 100%);
 `;

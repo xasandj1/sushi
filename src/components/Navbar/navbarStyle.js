@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Header = styled.header `
-
+width: 95%;
+margin-left: 20px;
 `
 export const Navbarwrapper = styled.nav `
 

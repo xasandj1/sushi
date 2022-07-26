@@ -23,9 +23,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--body);
   min-height: 100vh;
-  &:hover{
-    cursor: url("../assets/img/cursor.svg") 16 16, pointer;
-  }
 }
 a {
   text-decoration: none !important;
@@ -46,7 +43,7 @@ p,ul {
 }
 
 .container {
-    max-width: 1320px !important;
+    max-width: 1140px !important;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
